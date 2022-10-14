@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 const Item = ({ color, index }) => {
   const [alert, setAlert] = useState(false);
   const { rgb, weight } = color;
-  const clr = index > 10;
   const rgbColor = `rgb(${rgb.join(',')})`;
 
   const handleClick = () => {

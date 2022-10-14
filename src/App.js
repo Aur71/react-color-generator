@@ -1,5 +1,5 @@
 import React from 'react';
-import { useState, useEffect, useCallback } from 'react';
+import { useState } from 'react';
 import Item from './Item';
 import Values from 'values.js';
 
